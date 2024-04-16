@@ -15,10 +15,10 @@ for (let i = 0; i < botoes.length; i++) {
 
 const contadores = document.querySelectorAll(".contador");
 const tempoAtual = new Date();//retorna a data atual do computador
-const tempoObjetivo1 = new Date("2024-05-02T00:00:00");
-const tempoObjetivo2 = new Date("2024-05-02T00:00:00");
-const tempoObjetivo3 = new Date("2024-05-02T00:00:00");
-const tempoObjetivo4 = new Date("2024-05-02T00:00:00");
+const tempoObjetivo1 = new Date("2024-05-20T00:00:00");
+const tempoObjetivo2 = new Date("2024-07-01T00:00:00");
+const tempoObjetivo3 = new Date("2024-06-01T00:00:00");
+const tempoObjetivo4 = new Date("2024-12-01T00:00:00");
 
 function calculaTempo(tempoObjetivo){
 let tempoFinal = tempoObjetivo - tempoAtual;
