@@ -14,7 +14,6 @@ for (let i = 0; i < botoes.length; i++) {
 
 //document.querySelector("#minhaDiv p").textContent = "Olá Chuva, venha +- com força";
 const contadores = document.querySelectorAll(".contador");
-const tempoAtual = new Date(); // Retorna a data atual do computador
 const tempoObjetivo1 = new Date("2024-05-23T00:00:00");
 const tempoObjetivo2 = new Date("2024-08-12T00:00:00");
 const tempoObjetivo3 = new Date("2024-12-31T00:00:00");
@@ -38,13 +37,11 @@ if (tempoFinal > 0){
 } 
 else 
 { 
-  return "Prazo finalizado".;
+  return "Prazo finalizado.";
 }
 }
 
 function atualizaCronometro() {
-  
-  
   for (let i = 0; i < contadores.length; i++) {
   contadores[i].textContent = calculaTempo(tempos[i]);
 }
