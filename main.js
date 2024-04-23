@@ -38,7 +38,7 @@ if (tempoFinal > 0){
 } 
 else 
 { 
-  rturn "Prazo finalizado".;
+  return "Prazo finalizado".;
 }
 }
 
